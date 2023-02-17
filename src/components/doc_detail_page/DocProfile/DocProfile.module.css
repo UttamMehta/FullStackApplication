@@ -1,0 +1,74 @@
+/** @format */
+
+.flexBox {
+  /* background-color: white; */
+
+  display: flex;
+  width: 60%;
+  font-size: 15px;
+
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.tab_data {
+  background-color: white;
+}
+.contprofileinfo {
+  margin-left: 4%;
+}
+
+.divprofileinfo {
+  justify-content: left;
+}
+
+.infotab {
+  display: flex;
+}
+.infotabcolumn {
+  margin-right: 50px;
+  align-items: center;
+}
+.feedback__icon {
+  color: #787887;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgb(200, 250, 200);
+}
+.flexonly {
+  display: flex;
+}
+.clientstory {
+  margin-left: 10%;
+  font-weight: 500;
+}
+.clientname {
+  margin-left: 6%;
+  font-weight: 600;
+  color: #787887;
+}
+.inclininc {
+  margin-left: 6%;
+  background-color: #199fd9;
+  border-radius: 10%;
+  text-align: center;
+  width: 13%;
+}
+.singlestory {
+  border-bottom: 1.5px solid #787887;
+  margin-top: 5%;
+}
+.qaheader {
+  border-bottom: 1.5px solid #919191;
+  height: 15%;
+}
+.questions {
+  margin-top: 2%;
+  border-bottom: 1.5px solid #919191;
+}

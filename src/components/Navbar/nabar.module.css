@@ -1,0 +1,50 @@
+/** @format */
+
+/* @media screen and (min-width: 580px) {
+  #mai {
+    background-color: lightgreen;
+  }
+} */
+#fin {
+  /* border: solid black; */
+
+  display: flex;
+  color: #414146;
+  font-size: 23px;
+  font-weight: 600;
+  gap: 10px;
+  justify-content: space-between;
+  /* //   alignItems: center, */
+  margin-top: 10px;
+}
+#mai {
+  /* display: none; */
+
+  display: flex;
+  color: #414146;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 10px;
+  justify-content: space-between;
+  /* border: solid black; */
+  /* display: block; */
+}
+/* Link {
+  text-decoration: none;
+  color: #414146;
+} */
+@media screen and (max-width: 1300px) {
+  #mai {
+    /* background-color: lightgreen; */
+    display: none;
+  }
+  #fin {
+    display: none;
+  }
+  #main {
+    justify-content: space-between;
+  }
+  #kl {
+    display: none;
+  }
+}

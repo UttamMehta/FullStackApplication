@@ -1,0 +1,353 @@
+.Appss {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+  /* border: solid red; */
+  width: 70%;
+}
+
+
+
+
+
+.signupp{
+  /* border: solid red; */
+  width: 25%;
+  margin: auto;
+  margin-top: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.signs{
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signs:hover{
+  color:#61dafb;
+}
+
+.logs{
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logs:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.contain{
+  /* border: solid red; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.piccs{
+  /* border: solid red; */
+  margin-left: 4%;
+  width: 50%;
+  margin-top: 7%;
+}
+
+.infos{
+  /* border: solid red; */
+  text-align: left;
+  margin-left: 5%;
+  width: 46%;
+  margin-top: 7%;
+ 
+
+ 
+}
+
+#joinn{
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+#formms{
+  padding: 10%;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+
+
+#name{
+  padding: 3%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+#sel{
+  padding:2.8%;
+  border: 1px solid #ccc;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+#mobiles{
+  padding: 2.8%;
+  width: 63%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+#passcode{
+  
+       padding: 3%;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      margin-bottom: 3%;
+      margin-top: 3%;
+      border-radius: 5px;
+}
+
+#submit{
+  padding: 4%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: white;
+  background-color: cyan;
+  cursor: pointer;
+  
+}
+
+#paras{
+  margin-left: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+#checking{
+  display: flex;
+}
+
+#checkboxx{
+  margin-top: -5.5%;
+}
+
+.logos{
+  width: 100%;
+}
+
+#parags{
+  margin-top: 10%;
+}
+#linkss{
+  text-decoration: none;
+  
+}
+
+#labelsss{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+#sign-designs{
+  border: solid white;
+  padding-bottom: 7%;
+  border-bottom-color: #61dafb;
+  border-width: 3%;
+  
+}
+
+section .infos{
+  display: flex;
+  align-items: center;
+}
+
+section .piccs:before{
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: linear-gradient(225deg,#e91e63,#03a9f4);
+  z-index: 1;
+  mix-blend-mode: screen;
+}
+
+section .piccs .logos{
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+section .piccs{
+  position: relative;
+}
+
+@media(max-width: 1115px)
+{
+  section .infos #formms #mobiles{
+  padding: 2.8%;
+  width: 69%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+  }
+
+  section .infos #formms #sel{
+    padding: 2.8%;
+    width: 30%;
+  border: 1px solid #ccc;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+
+  }
+
+}
+
+@media(max-width: 768px)
+{
+  section .piccs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  section .infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  section .infos #formms{
+    width: 100%;
+    padding: 40px;
+    background: rgb(255, 255, 255/0.9);
+    box-shadow: #000000 0px 3px 8px;
+    margin: 50px;
+  }
+
+  section .infos #formms #joinn{
+    color: white;
+  }
+
+  section .infos #formms #labelss{
+    color: white;
+  }
+
+  section .infos #formms #mobiles{
+  padding: 2.8%;
+  width: 68%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+
+  }
+  section .infos #formms #paras{
+    
+    font-size: 15px;
+
+  }
+  section .infos #formms #parags{
+   
+    font-size: 17px;
+
+  }
+
+}
+
+@media(max-width: 680px){
+
+
+  section .infos #formms #mobiles{
+    padding: 2.8%;
+  width: 68%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-left: 1%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+
+  }
+
+  section .infos #formms #joinn{
+    color: white;
+  }
+
+  section .infos #formms #sel{
+    padding: 2.8%;
+    width: 30%;
+  border: 1px solid #ccc;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+
+  }
+
+
+  section .piccs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  section .infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  section .infos #formms{
+    width: 100%;
+    padding: 40px;
+    background: rgb(255, 255, 255/0.9);
+    box-shadow: #000000 0px 3px 8px;
+    margin: 50px;
+  }
+
+  section .infos #formms #labelss{
+    color: white;
+  }
+
+
+}
+

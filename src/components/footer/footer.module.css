@@ -1,0 +1,32 @@
+/** @format */
+#kll * {
+  text-align: left;
+}
+#kll p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+#kll h6 {
+  color: #fff;
+}
+@media screen and (max-width: 1300px) {
+  #mai {
+    background-color: lightgreen;
+    display: none;
+  }
+  #fin {
+    display: none;
+  }
+  #main {
+    justify-content: space-between;
+  }
+
+  .forall {
+    display: none;
+    /* justify-content: center; */
+  }
+}
